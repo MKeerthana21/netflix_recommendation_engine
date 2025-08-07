@@ -19,11 +19,9 @@ A personalized movie recommender system built using Python and Streamlit. It use
 
 ├── recommender.py # Core recommendation logic
 
-├── movies.csv # Raw movie dataset
+├──netflix_titles.csv # Raw movie dataset
 
 ├── eda.pdf # Exploratory Data Analysis report
-
-├── requirements.txt # Project dependencies
 
 └── README.md # Project documentation
 
@@ -81,7 +79,8 @@ Cosine Similarity to find related movies
 
 Top-N movie suggestion based on similarity score
 -----------------------------------------------------------------------------------------
-To Do
+To Do:
+
  Improve recommendation algorithm with hybrid filtering
 
  Deploy the app using Streamlit Cloud or Render
